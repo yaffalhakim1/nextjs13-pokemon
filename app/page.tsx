@@ -1,10 +1,8 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
-import PokemonTable from "@/components/pokemonTable";
-import { Pokemon } from "@/types";
+
 import { store } from "@/store";
 import { setStartupPokemon } from "@/store/searchSlice";
-import SSRPokemonTable from "@/components/SSRPokemonTable";
+
 import SearchInput from "@/components/searchInput";
 import Providers from "@/components/Provider";
 import Preloader from "@/components/Preloader";

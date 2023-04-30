@@ -5,7 +5,6 @@ import { pokemonApi } from "./pokemonAPI";
 export const store = configureStore({
   reducer: {
     search: searchReducer,
-
     pokemonApi: pokemonApi.reducer,
   },
   middleware: (getDefaultMiddleware) =>
